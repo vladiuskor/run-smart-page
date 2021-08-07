@@ -1,1 +1,1 @@
-# run-smart-page
+# Run smart landing page.
