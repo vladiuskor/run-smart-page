@@ -1,0 +1,29 @@
+.button {
+  padding: 6px 18px;
+  background-color: #C70101;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &_main {
+    margin-top: 67px;
+    padding: 13px 28px;
+    font-size: 16px;
+  }
+
+  &_submit {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 17px 30px;
+  }
+
+  &_mini {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 11px 38px;
+  }
+}

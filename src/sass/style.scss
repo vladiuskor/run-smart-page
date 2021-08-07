@@ -1,0 +1,29 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/animate";
+@import "libs/font";
+@import "libs/slick";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/page_up";
+@import "animation";
+
+* {
+  font-family: "Museo Sans";
+  font-weight: 500;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+

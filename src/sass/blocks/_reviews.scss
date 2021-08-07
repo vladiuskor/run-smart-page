@@ -1,0 +1,52 @@
+.reviews {
+	padding-bottom: 49px;
+
+  	&__headline {
+	  font-size: 30px;
+	  font-weight: 700;
+	  line-height: 1;
+	  text-align: center;
+	  text-transform: uppercase;
+	}
+
+  	&__wrapper {
+	  margin-top: 60px;
+	}
+
+  	&__item {
+	  display: flex;
+	  margin-bottom: 60px;
+	  &:last-child {
+		margin-bottom: 0;
+	  }
+	}
+
+  	&__content {
+	  max-width: 680px;
+	  p {
+		font-size: 16px;
+	  }
+	  p:last-child {
+		margin-bottom: 0;
+	  }
+	}
+
+  	&__img	{
+	  width: 169px;
+	  height: 169px;
+	  margin-right: 60px;
+	}
+
+  	&__content-name {
+	  font-size: 18px;
+	  font-weight: 700;
+	  line-height: 1;
+	}
+
+  	&__content-achievement {
+	  font-size: 14px;
+	  font-weight: 500;
+	  color: #646464;
+	  margin-bottom: 10px;
+	}
+}
